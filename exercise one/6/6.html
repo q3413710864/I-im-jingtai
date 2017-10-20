@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chome=1"/>
+    <!--视口--设备宽度--初始缩放比例--最小缩放比例--最大缩放比例--用户缩放-->
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <!--禁止浏览器自动的识别-电话号码-email--->
+    <meta name="format-detection" content="telephone=no,email=no"/>
+    <!--是否启用Web全屏-->
+    <meta name="apple-mobile-web-app-capable" content='yes'/>
+    <meta name="apple-mobile-web-status-bar-style" content="normal|black|black-translucent">
+    <!--设置苹果工具栏颜色-->
+    <meta name="apple-mobile-web-app-status-bar-style" content='black'/>
+    <title>Title</title>
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<header class="head">
+    <p class="icon iconfont icon-back p3"></p>
+    <p class="p1">欧美文化的抽象美感</p>
+    <p class="icon iconfont icon-nav p2">
+        <span>导航</span>
+    </p>
+</header>
+<section class="sec">
+    <img class="img1" src="images/1.png" alt="">
+    <div class="bian"></div>
+    <div class="max_A">
+        <div>
+            <div class="d1">
+                <div class="box_one"></div>
+            </div>
+            <span>首页(2)</span>
+        </div>
+        <div>
+            <div class="d1">
+                <div></div>
+            </div>
+            <span>卧室(1)</span>
+        </div>
+        <div>
+            <div class="d1">
+                <div></div>
+            </div>
+            <span>书房(2)</span>
+        </div>
+        <div>
+            <div class="d1">
+                <div></div>
+            </div>
+            <span>厨房(1)</span>
+        </div>
+        <div>
+            <div class="d1">
+                <div></div>
+            </div>
+            <span>卫生间(1)</span>
+        </div>
+    </div>
+    <div class="d2">
+        设计诠释：less is more 不需要过多的装饰，简单的墙面背景与简洁地家具即可组成一个温暖的家
+    </div>
+</section>
+<div class="div_F">
+    房先森互联网家装有别于传统装修公司与其他装修中介平台，以自营模式整合设计师与项目经理，杜绝项目装包外包，利用互联网将工地进行在线全景直播，通过去中间环节，提供装修套餐+个性化定制服务。
+</div>
+<div class="kong"></div>
+<div class="div_G">
+    <p class="icon iconfont icon-hot-line">服务热线：400-9977-658</p>
+    <ul>
+        <li>触屏版</li>
+        <li>电脑版</li>
+        <li>关于我们</li>
+        <li>联系我们</li>
+    </ul>
+    <button class="btn1"><span class="icon iconfont icon-design"></span>预约免费设计</button>
+    <img src="images/2.png" alt="">
+</div>
+</body>
+<script>
+    window.onresize=window.onload=function(){
+        document.documentElement.style.fontSize=innerWidth/7.5+"px";
+//            document.documentElement.style.fontSize=innerHeight/7.5+"px";
+        console.log("1rem="+innerWidth/7.5);
+    }
+</script>
+</html>

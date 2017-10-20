@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.head {
+  height: 4.42rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .head img {
+    width: 9rem;
+    height: 3.1rem;
+    position: absolute;
+    margin-left: 0.76rem; }
+  .head .p1 {
+    font-size: 1.51rem;
+    margin: 0 auto; }
+  .head .p2 {
+    font-size: 1.39rem;
+    width: 1.52rem;
+    flex-wrap: wrap;
+    margin-right: 0.76rem;
+    color: #999999; }
+    .head .p2 span {
+      font-size: 0.76rem;
+      color: #999; }
+
+section .img_A {
+  width: 100%; }
+section .div_A {
+  margin: 0 0.43rem;
+  padding: 0.43rem;
+  background: #f4f4f4;
+  font-size: 1rem;
+  margin-top: 0.84rem;
+  color: #000;
+  border-radius: 10px; }
+section .div_B {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 1.26rem; }
+  section .div_B .p3 {
+    font-size: 1.26rem;
+    margin: 1.26rem 0; }
+  section .div_B .span1 {
+    margin-right: 3rem; }
+  section .div_B span {
+    font-size: 1.18rem;
+    color: #999; }
+section .div_C {
+  border-top: 1px solid #eaeaea;
+  width: 97%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; }
+  section .div_C p {
+    font-size: 1rem;
+    height: 1.35rem;
+    color: #eaeaea;
+    margin-left: 0.5rem;
+    margin-top: 0.76rem;
+    padding: 0rem 0.7rem;
+    border: 1px solid #eaeaea;
+    border-radius: 2rem; }
+section .p4 {
+  width: 97%;
+  margin: 0 auto;
+  text-indent: 2rem;
+  margin-top: 1.51rem;
+  font-size: 1rem;
+  color: #666; }
+section .cen {
+  margin-top: 1.26rem;
+  display: flex;
+  justify-content: center; }
+  section .cen .img_B {
+    width: 70%; }
+section .div_D {
+  margin: 2rem auto;
+  width: 97%;
+  height: 2.8rem;
+  font-size: 1.45rem;
+  text-align: center;
+  line-height: 2.8rem;
+  color: #39c894;
+  border: 2px solid #2bb281; }
+section .ul_A {
+  display: flex;
+  justify-content: space-around; }
+  section .ul_A .li_A {
+    text-align: center;
+    color: deepskyblue;
+    font-size: 1rem; }
+  section .ul_A .li_B {
+    text-align: center;
+    color: #eed215;
+    font-size: 1rem; }
+  section .ul_A .span_A {
+    font-size: 2.44rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 4.21rem;
+    height: 4.21rem;
+    border: 0.13rem solid deepskyblue;
+    border-radius: 4.21rem;
+    color: deepskyblue; }
+  section .ul_A .span_B {
+    font-size: 2.44rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 4.21rem;
+    height: 4.21rem;
+    border: 0.13rem solid #feb505;
+    border-radius: 4.21rem;
+    color: #feb505; }
+  section .ul_A .span1 {
+    display: inline-block;
+    margin-top: 0.92rem; }
+section .div_E {
+  margin: 0rem auto;
+  margin-top: 2rem;
+  width: 97%;
+  height: 2.8rem;
+  font-size: 1.45rem;
+  text-align: center;
+  line-height: 2.8rem;
+  color: #39c894;
+  border: 2px solid #2bb281; }
+
+.kong {
+  margin: 1.45rem 0rem;
+  height: 1rem;
+  background: #d3d3d3; }
+
+.max {
+  width: 97%;
+  margin: 0 auto; }
+  .max .p3 {
+    padding-left: 3px;
+    border-left: 5px solid #39c894; }
+  .max .max_A .ul_B:nth-of-type(6) {
+    border: none; }
+  .max .max_A .ul_B {
+    padding: 1.52rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #cccccc; }
+    .max .max_A .ul_B img {
+      width: 7.96rem;
+      height: 6.06rem; }
+    .max .max_A .ul_B .mul_A {
+      height: 6.06rem;
+      font-size: 1.3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      .max .max_A .ul_B .mul_A span {
+        font-size: 1.18rem;
+        color: #999; }
+      .max .max_A .ul_B .mul_A span:nth-of-type(2) {
+        margin-left: 2rem; }
+
+.div_F {
+  width: 97%;
+  margin: 0 auto;
+  text-indent: 3rem;
+  font-size: 1.52rem; }
+
+.div_G {
+  text-align: center;
+  font-size: 1.52rem; }
+  .div_G p {
+    margin-bottom: 1rem; }
+  .div_G ul {
+    display: flex;
+    justify-content: space-around; }
+  .div_G img {
+    width: 100%; }
+
+/*# sourceMappingURL=css.css.map */

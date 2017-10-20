@@ -1,0 +1,181 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    margin: 0 8px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.34rem 0.38rem;
+    border-bottom: 1px solid whitesmoke;
+    >div:nth-of-type(1){
+        img{
+            width: 5.26rem;
+        }
+    }
+    >div:nth-of-type(2){
+        width: 19%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        >div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .icon-user{
+                font-size: 0.95rem;
+                color: #999999;
+                margin-bottom: 0.17rem;
+            }
+            .icon-nav{
+                font-size: 0.91rem;
+                color: #999999;
+                margin-bottom: 0.17rem;
+            }
+            >span:nth-of-type(2){
+                color: #999;
+                font-size: 0.46rem;
+            }
+        }
+    }
+    .ji{
+        font-size: 0.67rem;
+    }
+}
+.ju{
+    position: relative;
+    padding: 0.53rem 0 0.63rem 0;
+    >div:nth-of-type(1){
+        >img{
+            width: 100%;
+        }
+    }
+    >div:nth-of-type(2){
+        position: absolute;
+        top: 0.8rem;
+        left: -0.08rem;
+        color: white;
+        font-size: 0.51rem;
+        background: #39c894;
+        padding: 0.17rem 0.25rem;
+    }
+    >div:nth-of-type(3){
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        >div:nth-of-type(1){
+            margin-left: 0.34rem;
+            >span{
+                font-size: 0.76rem;
+                margin-top: 0.63rem;
+                margin-bottom: 0.63rem;
+            }
+            >p{
+                margin: 0 !important;
+                font-size: 0.59rem;
+                >span{
+                    color: #ff4351;
+                }
+            }
+        }
+        >div:nth-of-type(2){
+            >span{
+                font-size: 0.59rem;
+                background: red;
+                padding: 0.55rem;
+                color: white;
+                border-top-left-radius: 42px;
+                border-bottom-left-radius: 42px;
+            }
+        }
+    }
+}
+footer{
+    position: relative;
+}
+.jie{
+    font-size: 0.59rem;
+    line-height: 1rem;
+    color: #333;
+    text-indent: 2em;
+    padding: 0.76rem 0.38rem;
+    border-top: 0.32rem solid #eaeaea;
+    border-bottom: 0.32rem solid #eaeaea;
+}
+.p1{
+    text-align: center;
+    >span:nth-of-type(1){
+        color: limegreen;
+        font-size: 0.67rem;
+    }
+    >span:nth-of-type(2){
+        color: #333;
+        font-size: 0.59rem;
+    }
+}
+.fan{
+    width: 1.98rem;
+    height: 1.98rem;
+    position: absolute;
+    right: 0.38rem;
+    top: 4.5rem;
+    border-radius: 50%;
+    border: 1px solid #dedede;
+    display: flex;
+    justify-content: center;
+    >span{
+        line-height: 1.98rem;
+        font-size: 0.84rem;
+        color: #9c9c9c;
+    }
+}
+.chu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.59rem;
+    >span:nth-of-type(1){
+        color: #39c894;
+    }
+    >span:nth-of-type(2),>span:nth-of-type(3),>span:nth-of-type(4){
+        color: #333;
+    }
+}
+.zhuang{
+    width: 100%;
+    background: #000;
+    position: relative;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    >div:nth-of-type(1){
+        padding: 0.26rem;
+        >span{
+            position: absolute;
+            top: 0;
+            left: 0;
+            text-align: center;
+            font-size: 0.63rem;
+            color: white;
+            background: #39c894;
+            border-bottom-right-radius: 88%;
+        }
+    }
+    >div:nth-of-type(2){
+        >img{
+            width: 100%;
+        }
+    }
+    >div:nth-of-type(3){
+        color: white;
+        background: #feb605;
+        font-size: 0.51rem;
+        padding: 0.27rem 0.35rem;
+        border-radius: 12px;
+    }
+}
